@@ -9,14 +9,18 @@
 		var markersArray = [];
 		var poligono;		
 		
-		function initialize() {   
+		function initMap() {   
 			var laserena = new google.maps.LatLng(-29.91618	, -71.21781);
 			var myOptions = {
 				zoom:15,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				center: laserena
 			}
-			map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);  					
+			map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);  
+			Mostrar_Casa_1(); 
+			Mostrar_Casa_2(); 
+			Mostrar_Casa_3(); 
+			Mostrar_Casa_4();					
 																
 		}
 		
@@ -176,13 +180,13 @@
 			});
 			
 		}
-	$( document ).ready(function() {    	
+	/*$( document ).ready(function() {    	
 		initialize(); 
 		Mostrar_Casa_1(); 
 		Mostrar_Casa_2(); 
 		Mostrar_Casa_3(); 
 		Mostrar_Casa_4();
-	});
+	});*/
 </script>
 <div class="container">
 	<div class="col-sm-6 col-sm-offset-3">
