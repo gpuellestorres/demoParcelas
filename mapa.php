@@ -12,7 +12,7 @@
 		function initMap() {   
 			var laserena = new google.maps.LatLng(-29.91618	, -71.21781);
 			var myOptions = {
-				zoom:15,
+				zoom:25,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				center: laserena
 			}
