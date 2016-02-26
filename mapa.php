@@ -55,7 +55,7 @@
 				content: "<h2>Sector 1</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.91589,-71.214845&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 
 
-			var LatLngPoligono = new google.maps.LatLng(-29.91589 , -71.214845);
+			var LatLngPoligono = new google.maps.LatLng(-29.91650 , -71.21550);
 				
 			var marker = new google.maps.Marker({
 				position: LatLngPoligono,
@@ -70,10 +70,10 @@
 	
 		function Mostrar_Casa_2() {	
 			var Casa2 = [
-				new google.maps.LatLng(-29.91741, -71.22261),
-				new google.maps.LatLng(-29.91778, -71.22171),
-				new google.maps.LatLng(-29.91863, -71.22193),
-				new google.maps.LatLng(-29.91837, -71.22313)				
+				new google.maps.LatLng(-29.91700 , -71.21600),
+				new google.maps.LatLng(-29.91700 , -71.21700),
+				new google.maps.LatLng(-29.91800 , -71.21700),
+				new google.maps.LatLng(-29.91800 , -71.21600)
 			];
 			
 			poligonoCasa2 = new google.maps.Polygon({
@@ -95,7 +95,7 @@
 				content: "<h2>Sector 2</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9180475,-71.222345&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
-			var LatLngPoligono = new google.maps.LatLng(-29.9180475 , -71.222345);
+			var LatLngPoligono = new google.maps.LatLng(-29.91750 , -71.21650);
 				
 			var marker = new google.maps.Marker({
 				position: LatLngPoligono,
@@ -110,10 +110,10 @@
 	
 		function Mostrar_Casa_3() {		
 			var Casa3 = [
-				new google.maps.LatLng(-29.91056 , -71.22536),
-				new google.maps.LatLng(-29.91131 , -71.22570),
-				new google.maps.LatLng(-29.91157 , -71.22476),
-				new google.maps.LatLng(-29.91067 , -71.22433)
+				new google.maps.LatLng(-29.91600 , -71.21600),
+				new google.maps.LatLng(-29.91600 , -71.21700),
+				new google.maps.LatLng(-29.91700 , -71.21700),
+				new google.maps.LatLng(-29.91700 , -71.21600)
 			];
 			poligonoCasa3 = new google.maps.Polygon({
 				paths: Casa3,
@@ -136,7 +136,7 @@
 				content: "<h2>Sector 3</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9110275,-71.2250375&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
-			var LatLngPoligono = new google.maps.LatLng(-29.9110275 , -71.2250375);
+			var LatLngPoligono = new google.maps.LatLng(-29.91650 , -71.21650);
 				
 			var marker = new google.maps.Marker({
 				position: LatLngPoligono,
@@ -151,10 +151,10 @@
 		function Mostrar_Casa_4() {			
 				
 			var Casa4 = [
-				new google.maps.LatLng(-29.92053 , -71.21137),
-				new google.maps.LatLng(-29.92142 , -71.21184),
-				new google.maps.LatLng(-29.92172 , -71.21055),
-				new google.maps.LatLng(-29.92101 , -71.21030)
+				new google.maps.LatLng(-29.91700 , -71.21500),
+				new google.maps.LatLng(-29.91700 , -71.21600),
+				new google.maps.LatLng(-29.91800 , -71.21600),
+				new google.maps.LatLng(-29.91800 , -71.21500)
 			];
   
 			poligonoCasa4 = new google.maps.Polygon({
@@ -177,7 +177,7 @@
 				content: "<h2>Sector 4</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.92117,-71.211015&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
-			var LatLngPoligono = new google.maps.LatLng(-29.92117 , -71.211015);
+			var LatLngPoligono = new google.maps.LatLng(-29.91750 , -71.21550);
 				
 			var marker = new google.maps.Marker({
 				position: LatLngPoligono,
