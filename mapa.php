@@ -8,7 +8,7 @@
 		<?php
 			for($i=1;i<5;i++)
 			{
-				if(isset($_POST['sector'.+$i]))
+				if(isset($_POST['sector'.$i]))
 				{
 					echo "<h2>".$_POST["sector".$i]."</h2>";
 				}
