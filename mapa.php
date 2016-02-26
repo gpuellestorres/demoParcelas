@@ -183,7 +183,7 @@
 		Mostrar_Casa_2(); 
 		Mostrar_Casa_3(); 
 		Mostrar_Casa_4();
-		alert("aa");
+
 	});
 </script>
 <div class="container">
@@ -200,5 +200,7 @@
 			}
 		?>
 	</div>
-	<div id="map_canvas" style="float:left;width:70%; height:70%"></div>
+	<br/>
+
+	<div class="col-sm-6 col-sm-offset-3" id="map_canvas" ></div>
 </div>
