@@ -202,5 +202,5 @@
 	</div>
 	<br/>
 
-	<div class="col-sm-6 col-sm-offset-3" id="map_canvas" ></div>
+	<div class="col-sm-6 col-sm-offset-3" id="map_canvas" style="height:300px" ></div>
 </div>
