@@ -1,8 +1,8 @@
 <?php 
 	include $_SERVER['DOCUMENT_ROOT']."/header.php";
 ?>
- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8&signed_in=true&libraries=places&callback=initMap"
-        async defer></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&languaje=ja"></script>
+ 
 
 <script type="text/javascript">
 	var map;
@@ -17,10 +17,7 @@
 				center: laserena
 			}
 			map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);  
-			Mostrar_Casa_1(); 
-			Mostrar_Casa_2(); 
-			Mostrar_Casa_3(); 
-			Mostrar_Casa_4();					
+								
 																
 		}
 		
@@ -180,13 +177,13 @@
 			});
 			
 		}
-	/*$( document ).ready(function() {    	
-		initialize(); 
+	$( document ).ready(function() {    	
+		initMap();
 		Mostrar_Casa_1(); 
 		Mostrar_Casa_2(); 
 		Mostrar_Casa_3(); 
 		Mostrar_Casa_4();
-	});*/
+	});
 </script>
 <div class="container">
 	<div class="col-sm-6 col-sm-offset-3">
