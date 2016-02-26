@@ -183,6 +183,7 @@
 		Mostrar_Casa_2(); 
 		Mostrar_Casa_3(); 
 		Mostrar_Casa_4();
+		alert("aa");
 	});
 </script>
 <div class="container">
