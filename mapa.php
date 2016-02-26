@@ -1,7 +1,9 @@
 <?php 
 	include $_SERVER['DOCUMENT_ROOT']."/header.php";
 ?>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&languaje=ja"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8&signed_in=true&libraries=places&callback=initMap"
+        async defer></script>
+
 <script type="text/javascript">
 	var map;
 		var markersArray = [];
@@ -39,7 +41,7 @@
 
 
 			var InfoWindowCasa1 = new google.maps.InfoWindow({
-				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.91589,-71.214845&heading=151.78&pitch=-0.76'>"
+				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.91589,-71.214845&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 
 
 			var LatLngPoligono = new google.maps.LatLng(-29.91589 , -71.214845);
@@ -73,7 +75,7 @@
 				map:map
 			});
 			var InfoWindowCasa2 = new google.maps.InfoWindow({
-				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9180475,-71.222345&heading=151.78&pitch=-0.76'>"
+				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9180475,-71.222345&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
 			var LatLngPoligono = new google.maps.LatLng(-29.9180475 , -71.222345);
@@ -107,7 +109,7 @@
 			});
 			
 			var InfoWindowCasa3 = new google.maps.InfoWindow({
-				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9110275,-71.2250375&heading=151.78&pitch=-0.76'>"
+				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9110275,-71.2250375&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
 			var LatLngPoligono = new google.maps.LatLng(-29.9110275 , -71.2250375);
@@ -141,7 +143,7 @@
 				map:map
 			});
 			var InfoWindowCasa4 = new google.maps.InfoWindow({
-				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.92117,-71.211015&heading=151.78&pitch=-0.76'>"
+				content: "<img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.92117,-71.211015&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
 			var LatLngPoligono = new google.maps.LatLng(-29.92117 , -71.211015);
