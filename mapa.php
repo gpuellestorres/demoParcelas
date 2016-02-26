@@ -24,10 +24,10 @@
 
 		function Mostrar_Casa_1() {				
 			var Casa1 = [				
-				new google.maps.LatLng(-29.91629 , -71.21562),
-				new google.maps.LatLng(-29.91536 , -71.21545),
-				new google.maps.LatLng(-29.91547 , -71.21411),
-				new google.maps.LatLng(-29.91644 , -71.21420)
+				new google.maps.LatLng(-29.91600 , -71.21500),
+				new google.maps.LatLng(-29.91600 , -71.21600),
+				new google.maps.LatLng(-29.91700 , -71.21600),
+				new google.maps.LatLng(-29.91700 , -71.21500)
 			];
 
 
