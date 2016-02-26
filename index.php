@@ -4,25 +4,21 @@
 
 <div class="container">
 	<form action="subir.php" method="post" enctype="multipart/form-data">
-		<div id="divNombre" class="form-group">
-			<label for="nombre" class="control-label">Sector 1</label>
+		<div id="divNombre" class="form-group">			
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" />
+				<input type="checkbox" name="sector" value="1" >Sector 1</input>
 			</div>
 			<br>
-			<label for="nombre" class="control-label">Sector 2</label>
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" />
+				<input type="checkbox" name="sector" value="1" />Sector 2</input>
 			</div>
 			<br>
-			<label for="nombre" class="control-label">Sector 3</label>
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" />
+				<input type="checkbox" name="sector" value="1" />Sector 3</input>
 			</div>
 			<br>
-			<label for="nombre" class="control-label">Sector 4</label>
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" />
+				<input type="checkbox" name="sector" value="1" />Sector 4</input>
 			</div>
 		</div>
 		<br />
