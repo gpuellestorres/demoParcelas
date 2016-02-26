@@ -5,24 +5,13 @@
 	<div class="col-sm-6 col-sm-offset-3">
 		<br>
 		<br>
-		<br>
-		<br>
 		<?php
-			if(isset($_POST['sector1']))
+			for($i=1;i<5;i++)
 			{
-				echo $_POST["sector1"]."<br>";
-			}
-			if(isset($_POST['sector2']))
-			{
-				echo $_POST["sector2"]."<br>";
-			}
-			if(isset($_POST['sector3']))
-			{
-				echo $_POST["sector3"]."<br>";
-			}
-			if(isset($_POST['sector4']))
-			{
-				echo $_POST["sector4"];
+				if(isset($_POST['sector'.+$i]))
+				{
+					echo "<h2>".$_POST["sector".$i]."</h2>";
+				}
 			}
 		?>
 	</div>
