@@ -6,7 +6,7 @@
 		<br>
 		<br>
 		<?php
-			for($i=1;i<5;i++)
+			for($i=1;$i<5;$i++)
 			{
 				if(isset($_POST['sector'.$i]))
 				{
