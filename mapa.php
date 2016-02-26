@@ -3,6 +3,10 @@
 ?>
 <div class="container">
 	<div class="col-sm-6 col-sm-offset-3">
+		<br>
+		<br>
+		<br>
+		<br>
 		<?php
 			if(isset($_POST['sector1']))
 			{
