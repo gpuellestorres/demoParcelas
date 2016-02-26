@@ -52,7 +52,7 @@
 
 
 			var InfoWindowCasa1 = new google.maps.InfoWindow({
-				content: "<h1>Sector 1</h1><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.91589,-71.214845&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
+				content: "<h2>Sector 1</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.91589,-71.214845&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 
 
 			var LatLngPoligono = new google.maps.LatLng(-29.91589 , -71.214845);
@@ -92,7 +92,7 @@
 				map:map
 			});
 			var InfoWindowCasa2 = new google.maps.InfoWindow({
-				content: "<h1>Sector 2</h1><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9180475,-71.222345&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
+				content: "<h2>Sector 2</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9180475,-71.222345&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
 			var LatLngPoligono = new google.maps.LatLng(-29.9180475 , -71.222345);
@@ -133,7 +133,7 @@
 			});
 			
 			var InfoWindowCasa3 = new google.maps.InfoWindow({
-				content: "<h1>Sector 3</h1><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9110275,-71.2250375&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
+				content: "<h2>Sector 3</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.9110275,-71.2250375&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
 			var LatLngPoligono = new google.maps.LatLng(-29.9110275 , -71.2250375);
@@ -174,7 +174,7 @@
 				map:map
 			});
 			var InfoWindowCasa4 = new google.maps.InfoWindow({
-				content: "<h1>Sector 4</h1><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.92117,-71.211015&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
+				content: "<h2>Sector 4</h2><br><img width='500' src='https://maps.googleapis.com/maps/api/streetview?size=600x300&location=-29.92117,-71.211015&heading=151.78&pitch=-0.76&key=AIzaSyCNjTa-9hZQNUXinLyGA-OBikIfucKxka8'>"
 			}); 			
 
 			var LatLngPoligono = new google.maps.LatLng(-29.92117 , -71.211015);
