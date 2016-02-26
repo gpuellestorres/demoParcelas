@@ -10,7 +10,7 @@
 			{
 				if(isset($_POST['sector'.$i]))
 				{
-					echo "<h2>".$_POST["sector".$i]."</h2>";
+					echo "<h4>".$_POST["sector".$i]."</h4>";
 				}
 			}
 		?>
