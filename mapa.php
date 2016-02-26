@@ -29,13 +29,23 @@
 				new google.maps.LatLng(-29.91547 , -71.21411),
 				new google.maps.LatLng(-29.91644 , -71.21420)
 			];
+
+
 			
 			poligonoCasa1 = new google.maps.Polygon({
 				paths: Casa1,
 				strokeColor: "#093",
 				strokeOpacity: 0.8,
 				strokeWeight: 2,
-				fillColor: "#093",
+				fillColor:   
+				<?php if(isset($_POST['sector1']))
+				{
+					echo '"red",';
+				}else{
+					echo '"green",';		
+				}	
+				?>
+
 				fillOpacity: 0.35,
 				map:map
 			});
@@ -71,7 +81,13 @@
 				strokeColor: "#093",
 				strokeOpacity: 0.8,
 				strokeWeight: 2,
-				fillColor: "#093",
+				fillColor: <?php if(isset($_POST['sector2']))
+				{
+					echo '"red",';
+				}else{
+					echo '"green",';		
+				}	
+				?>
 				fillOpacity: 0.35,
 				map:map
 			});
@@ -104,7 +120,14 @@
 				strokeColor: "#093",
 				strokeOpacity: 0.8,
 				strokeWeight: 2,
-				fillColor: "#093",
+				fillColor: 
+				<?php if(isset($_POST['sector3']))
+				{
+					echo '"red",';
+				}else{
+					echo '"green",';		
+				}	
+				?>
 				fillOpacity: 0.35,
 				map:map
 			});
@@ -139,7 +162,14 @@
 				strokeColor: "#C60",
 				strokeOpacity: 0.8,
 				strokeWeight: 2,
-				fillColor: "#C60",
+				fillColor: 
+				<?php if(isset($_POST['sector4']))
+				{
+					echo '"red",';
+				}else{
+					echo '"green",';		
+				}	
+				?>
 				fillOpacity: 0.35,
 				map:map
 			});
@@ -187,6 +217,10 @@
 	});
 </script>
 <div class="container">
+	
+
+	<div class="col-sm-10 col-sm-offset-1" id="map_canvas" style="height:800px" ></div>
+	<br>
 	<div class="col-sm-6 col-sm-offset-3">
 		<br>
 		<br>
@@ -200,7 +234,5 @@
 			}
 		?>
 	</div>
-	<br/>
-
-	<div class="col-sm-6 col-sm-offset-3" id="map_canvas" style="height:300px" ></div>
+	
 </div>
