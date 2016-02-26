@@ -10,16 +10,16 @@
 		<div id="divNombre" class="form-group">
 			<h3>Marque los sectores que se encuentran ocupados</h3>
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" >Sector 1</input>
+				<input type="checkbox" name="sector1" value="1" >Sector 1</input>
 			</div>
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" />Sector 2</input>
+				<input type="checkbox" name="sector2" value="1" />Sector 2</input>
 			</div>
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" />Sector 3</input>
+				<input type="checkbox" name="sector3" value="1" />Sector 3</input>
 			</div>
 			<div class="checkbox">
-				<input type="checkbox" name="sector" value="1" />Sector 4</input>
+				<input type="checkbox" name="sector4" value="1" />Sector 4</input>
 			</div>
 		</div>
 		<br />
