@@ -11,16 +11,16 @@
 			<div id="divNombre" class="form-group">
 				<h4>Por favor, marque los sectores que se encuentran ocupados para mostrarlos en el mapa</h4>
 				<div class="checkbox">
-					<input type="checkbox" name="sector1" value="1" >Sector 1</input>
+					<input type="checkbox" name="sector1" value="Sector 1 Ocupado" >Sector 1</input>
 				</div>
 				<div class="checkbox">
-					<input type="checkbox" name="sector2" value="1" />Sector 2</input>
+					<input type="checkbox" name="sector2" value="Sector 2 Ocupado" />Sector 2</input>
 				</div>
 				<div class="checkbox">
-					<input type="checkbox" name="sector3" value="1" />Sector 3</input>
+					<input type="checkbox" name="sector3" value="Sector 3 Ocupado" />Sector 3</input>
 				</div>
 				<div class="checkbox">
-					<input type="checkbox" name="sector4" value="1" />Sector 4</input>
+					<input type="checkbox" name="sector4" value="Sector 4 Ocupado" />Sector 4</input>
 				</div>
 			</div>
 			<br />
